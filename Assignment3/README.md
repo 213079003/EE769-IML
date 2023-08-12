@@ -2,7 +2,8 @@
 - The [213070015_213079003_1.ipynb](https://github.com/213079003/EE769-IML/blob/main/Assignment3/213070015_213079003_1.ipynb) notebook deals with image classification using transfer learning of a ResNet-18 architecture that is pre-trained on a large dataset (ImageNet).
     - Finetuning this model to classify bees versus ants by varying learning rate and momentum. Then added weight decay for regularization improving the testing accuracy from 94% to 96% .
     - Dataset: [link](https://download.pytorch.org/tutorial/hymenoptera_data.zip)
-- 
-- We preprocessed data for clustering using various transforms and trained and visualized the effect of k in k-means clustering.
+- In [213070015_213079003_2.ipynb](https://github.com/213079003/EE769-IML/blob/main/Assignment3/213070015_213079003_1.ipynb) notebook , preprocessed data for clustering, chose the optimal value of k using Elbow and Silhouette methods, then trained and visualized the effect of k in k-means clustering using t-sne embedding.
+
+  
 - We trained principal component analysis and selected the number of dimensions based on the variance explained.
 - We trained kernel principal component analysis and selected the number of dimensions based on the variance explained.
